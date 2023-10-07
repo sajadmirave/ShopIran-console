@@ -31,7 +31,11 @@ class Helper {
 
 class ShopIran {
   final Map<String, String> _product = {};
-  final Map<String, String> _users = {'sajad': '1234', 'asal': '657'};
+  final Map<String, String> _users = {
+    'sajad': '1234',
+    'mmd': '657',
+    'admin': 'admin'
+  };
   final Map<String, String> _role = {"admin": "1", "adder": "2"};
   final Map<String, String> _permission = {"sajad": "1"};
   String? _currentUser; // Current user logged in
